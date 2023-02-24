@@ -1,0 +1,68 @@
+.login
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login img
+{
+    width: 20vw;
+    animation: logoan 2s infinite;
+}
+.login h1
+{
+    margin-top: 0;
+}
+.login input
+{
+    margin: 1em;
+    width: 60vw;
+    height: 2em;
+    border-radius: 1em;
+    border: thin solid black;
+}
+.login a
+{
+    margin-bottom: 1em;
+    color: rgb(243, 209, 255);
+}
+.login button
+{
+    width: 45vw;
+    height: 2em;
+    border: none;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+@keyframes logoan {
+    0% {margin-top: 10vh; margin-bottom: 1vh; transform: scale(1, 1);}
+    15% {margin-top: 11vh; margin-bottom: 0vh; transform: scale(1.1, 0.9);}
+    30% {transform: scale(0.9, 1.1);}
+    40% {margin-top: 5vh; margin-bottom: 6vh; transform: scale(1, 1);}
+    65% {margin-top: 4.5vh; margin-bottom: 6.5vh; transform: scale(1, 1);}
+    70% {transform: scale(0.9, 1.1);}
+    80% {margin-top: 10vh; margin-bottom: 1vh; transform: scale(1.1, 0.9);}
+    100% {margin-top: 10vh; margin-bottom: 1vh; transform: scale(1, 1);}
+}
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+          -45deg, 
+          rgba(59,173,227,1) 0%, 
+          rgba(87,111,230,1) 25%, 
+          rgba(152,68,183,1) 51%, 
+          rgba(255,53,127,1) 100%
+    );  
+    animation: AnimateBG 20s ease infinite;
+  }
+  
+  @keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }

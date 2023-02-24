@@ -1,0 +1,129 @@
+body
+{
+    height: 100vh;
+    overflow: hidden;
+}
+.nav-bar
+{
+    background-color: rgb(234, 130, 255);
+    width: 100vw;
+    height: 9vh;
+    border-radius: 0.5em 0.5em 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar button
+{
+    height: 80%;
+    width: 6em;
+    margin: 0 5vw;
+}
+.home
+{
+    background-color: red;
+    width: 100vw;
+    height: 91vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1em;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home .post
+{
+    background-color: pink;
+    width: 50%;
+    padding-bottom: 1em;
+}
+.home .post img
+{
+    width: 99%;
+    border-radius: 0.5em;
+}
+.home .post-content
+{
+    background-color: rgba(0, 0, 0, 0.205);
+    position: fixed;
+    width: 100vw;
+    height: 91vh;
+}
+
+.dietstab
+{
+    background-color: blue;
+    width: 100vw;
+    height: 91vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    overflow-y: scroll;
+    border-radius: 1em;
+}
+.dietstab .diet
+{
+    width: 100%;
+    height: 10em;
+    background-color: pink;
+    border-radius: 0.5em;
+}
+.dietstab .diet2
+{
+    width: 50%;
+    height: 8em;
+    background-color: red;
+    border-radius: 0.5em;
+}
+
+.profilepage .pfp
+{
+    width: 8em;
+    height: 8em;
+    border-radius: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+.blog .like
+{
+    position:fixed;
+    bottom: 6em;
+    right: 1em;
+    width: 5em;
+    height: 3em;
+}
+.blog .back
+{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    width: 5em;
+    height: 3em;
+}
+.blog img
+{
+    width: 98vw;
+    position: absolute;
+    display: block;
+    top: 1vw;
+    left: 1vw;
+    border-radius: 1em;
+    z-index: -2;
+}
+.blog p
+{
+    display: block;
+    background-color: rebeccapurple;
+    margin-top: 1em;
+}
